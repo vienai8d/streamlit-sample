@@ -1,5 +1,9 @@
+"""Stremlitのサンプルアプリケーション"""
+import streamlit as st
+
 def main():
-    print("Hello from streamlit-sample!")
+    st.title("Streamlit Sample App")
+    st.write("This is a sample application using Streamlit.")
 
 
 if __name__ == "__main__":
